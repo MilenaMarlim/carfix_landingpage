@@ -1,0 +1,9 @@
+@media(max-width: 768px){
+    .principal{
+        flex-direction: column;
+    }
+
+    .principal h1{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="src/images/logo-carfix-blue.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/CSS/reset.css">
+    <link rel="stylesheet" href="src/CSS/global.css">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/responsive.css">
+    <title>CarFix</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="src/images/logo-carfix-white.png" alt="Logo da Carfix em branco">
+        </div>
+
+        <nav class="navegacao">
+            <ul>
+                <li class="item">
+                    <a href="#home">Home </a>
+                </li>
+                <li class="item">
+                    <a href="#nossos_servicos"> Nossos Serviços </a>
+                </li>
+                <li class="item">
+                    <a href="#contato">Contato </a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="principal" id="home">
+            <img src="src/images/casal_preenchendo_formulario_seguradora.jpg"
+                alt="casal casal preenchendo formulario da seguradora">
+            <h1>Cuidar do seu carro é cuidar de você!</h1>
+
+        </section>
+
+        <section class="servicos" id="nossos_servicos">
+            <h2 class="titulo">Alguns dos nossos serviços 24 horas</h2>
+
+            <div class="area-de-servicos">
+
+                <div class="item">
+                    <div class="info">
+                        <img src="src/images/reboque.png" alt="reboque">
+                        <h2>Guincho/Reboque</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="info">
+                        <img src="src/images/chaveiro.png" alt="chaveiro">
+                        <h2>Troca de Pneus e Chaveiros</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+
+                    <div class="info">
+                        <img src="src/images/transporte_domiciliar.png" alt="transporte_domiciliar">
+                        <h2>Transporte Domiciliar</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="formulario" id="contato">
+
+            <form class="form">
+
+                <h2>Preencha o formulário e entraremos em contato com você!</h2>
+                <div class="grupo">
+
+                    <div class="campo">
+                        <label for="nome"><strong>Nome Completo:</strong></label>
+                        <input type="text" placeholder="Digite seu nome completo" name="nome" id="nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email"><strong>E-mail:</strong></label>
+                        <input type="email" placeholder="Digite seu e-mail" name="email" id="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone"><strong>Telefone:</strong></label>
+                        <input type="number" placeholder="Telefone com DDD" name="telefone" id="telefone" required>
+                    </div>
+
+                    <label for=""><strong>Data de Nascimento:</strong></label> <br>
+                    <select name="dia" id="dia">
+                        <option value="">Dia</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+
+                    </select>
+
+                    <select name="mes" id="mes">
+                        <option value=""> Mês</option>
+                        <option value="jan">Janeiro</option>
+                        <option value="fev">Fevereiro</option>
+                        <option value="mar">Março</option>
+                        <option value="abr">Abril</option>
+                        <option value="mai">Maio</option>
+                        <option value="jun">Junho</option>
+                        <option value="jul">Julho</option>
+                        <option value="ago">Agosto</option>
+                        <option value="set">Setembro</option>
+                        <option value="out">Outubro</option>
+                        <option value="set">Novembro</option>
+                        <option value="out">Dezembro</option>
+
+                    </select>
+
+                    <select name="ano" id="ano">
+                        <option value="">Ano</option>
+                    </select>
+                    <br><br>
+
+                    <button class="botao" type="submit" onsubmit="">Pedir uma cotação</button>
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="direitos-autorais">
+
+            <h4>Direitos reservados Carfix</h4>
+
+        </div>
+
+        <div class="redes-sociais">
+            <a href="#" class="redes-sociais">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#" class="redes-sociais">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+
+            <a href="#" class="redes-sociais">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
