@@ -7,3 +7,40 @@
         font-size: 30px;
     }
 }
+
+@media(max-width: 578px){
+
+    .cabecalho{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .cabecalho .navegacao ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .principal h1{
+        width: 80%;
+    }
+
+    .servicos .titulo{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .form{
+        width: 80%;
+    }
+
+    .principal img{
+        width: 70%;
+    }
+
+}
+
+@media(max-width: 435px){
+    .rodape{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+    }
