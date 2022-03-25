@@ -89,7 +89,7 @@
     padding-bottom: 20px;
 }
 
-.formulario  {
+.formulario {
     background-image: url(../images/porsche-carro_edited.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,7 +101,6 @@
     align-items: center;
     flex-wrap: wrap;
 }
-
 
 .grupo{
     border: 10px inset #3d2979;
