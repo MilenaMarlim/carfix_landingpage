@@ -104,8 +104,8 @@
 
 .grupo{
     border: 10px inset #3d2979;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px ;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px ;
     background-color: rgba(0,0,0,0.3);
     width: 95%;
     margin-bottom: 50px;
